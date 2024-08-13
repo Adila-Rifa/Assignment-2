@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.inter-fonts{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+  
+  /* Global Style */
+.primary-color{
+    color:#e6533c;
+}
+.secondary-color{
+    color:rgba(255, 255, 255, 0.518);
+}
+  .brand-name{
+    font-size:1.875rem;
+    font-weight: 800;
+  }
+
