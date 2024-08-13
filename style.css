@@ -8,14 +8,69 @@
   }
   
   /* Global Style */
+  .display{
+    display:flex;
+  }
+   /* Text-color */
 .primary-color{
     color:#e6533c;
 }
 .secondary-color{
     color:rgba(255, 255, 255, 0.518);
 }
+.Common-color{
+    color:white;
+}
+  /* fonts-weight */
+.font-weight1{
+    font-weight: 600;
+    font-size: 1.125rem;
+}
+.font-weight2{
+ font-weight: 400;
+}
+.font-weight3{
+    font-weight: 900;
+}
+
+/* Fonts */
+.font1{
+    font-size: 1rem;
+}
+.font2{
+    font-size: 0.875rem;
+}
+.font3{
+ font-size: 1.125rem;
+}
+.bg1{
+  background-color:#1d1d1d;
+}
+
+/* Nav-ber related style */
   .brand-name{
     font-size:1.875rem;
     font-weight: 800;
   }
+  .nav-ber{
+    margin: 0 auto;
+    justify-content: space-around;
+
+  }
+  .nav-links{
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav-item{
+    list-style:none;
+    margin-right: 30px;
+  }
+  .nav-link{
+    text-decoration: none;
+  }
+  .rd{
+    background-color: #e6533c;
+    border-radius:500%;
+  }
+
 
