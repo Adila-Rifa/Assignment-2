@@ -1,76 +1,118 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Grey+Qo&family=Inter:ital,opsz@0,14..32;1,14..32&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-
-.inter-fonts{
-    font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-  }
-  
-  /* Global Style */
-  .display{
-    display:flex;
-  }
-   /* Text-color */
-.primary-color{
-    color:#e6533c;
+.inter-fonts {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
-.secondary-color{
-    color:rgba(255, 255, 255, 0.518);
+.grey-qo-regular {
+  font-family: "Grey Qo", cursive;
+  font-weight: 400;
+  font-size: 4.875rem;
+  font-style: normal;
 }
-.Common-color{
-    color:white;
+/* Global Style */
+.display {
+  display: flex;
 }
-  /* fonts-weight */
-.font-weight1{
-    font-weight: 600;
-    font-size: 1.125rem;
+.bg1 {
+  background-color: #1d1d1d;
 }
-.font-weight2{
- font-weight: 400;
+/* Text-color */
+.primary-color {
+  color: #e6533c;
 }
-.font-weight3{
-    font-weight: 900;
+.secondary-color {
+  color: rgba(255, 255, 255, 0.518);
+}
+.Common-color {
+  color: white;
+}
+/* Button */
+.b1{
+  background-color: #e6533c;
+}
+/* fonts-weight */
+.font-weight1 {
+  font-weight: 600;
+  font-size: 1.125rem;
+}
+.font-weight2 {
+  font-weight: 400;
+}
+.font-weight3 {
+  font-weight: 900;
 }
 
 /* Fonts */
-.font1{
-    font-size: 1rem;
+.font1 {
+  font-size: 1rem;
 }
-.font2{
-    font-size: 0.875rem;
+.font2 {
+  font-size: 0.875rem;
 }
-.font3{
- font-size: 1.125rem;
+.font3 {
+  font-size: 1.125rem;
 }
-.bg1{
-  background-color:#1d1d1d;
+.font4{
+  font-size: 4.875rem;
 }
+
 
 /* Nav-ber related style */
-  .brand-name{
-    font-size:1.875rem;
-    font-weight: 800;
-  }
-  .nav-ber{
-    margin: 0 auto;
-    justify-content: space-around;
+.brand-name {
+  font-size: 1.875rem;
+  font-weight: 800;
+}
+.nav-ber {
+  margin: 0 auto;
+  justify-content: space-around;
+}
+.nav-links {
+  margin-right: 25px;
+}
+.nav-item {
+  width: 100px;
+  height: 30px;
+  background-color: #e6533c;
+  border-radius: 16px;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 20px;
+}
 
-  }
-  .nav-links{
-    justify-content: space-between;
-    align-items: center;
-  }
-  .nav-item{
-    list-style:none;
-    margin-right: 30px;
-  }
-  .nav-link{
-    text-decoration: none;
-  }
-  .rd{
-    background-color: #e6533c;
-    border-radius:500%;
-  }
-
+.nav-border {
+  width: 350px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgb(62, 60, 60);
+  border-radius: 20px;
+  margin: auto 0;
+}
+/* Hero-section */
+.hero-section{
+  justify-content: space-evenly;
+  margin:0 auto;
+  
+}
+.heading{
+  flex-direction: column;
+  background-color: palevioletred;
+  padding: 0;
+}
+h1{
+  margin: 0;
+}
+.btn1{
+ margin-right: 10px;
+ 
+}
+.head{
+  margin: 0 auto;
+}
+.image-part-1{
+  background-color: aqua;
+}
 
