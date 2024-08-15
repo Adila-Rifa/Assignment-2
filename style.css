@@ -68,9 +68,15 @@
 .font7{
   font-size:1.5rem;
 }
+.font8{
+  font-size: 3rem;
+}
 
 
 /* Nav-ber related style */
+.head{
+  margin: 0 auto;
+}
 .brand-name {
   font-size: 1.875rem;
   font-weight: 800;
@@ -136,17 +142,10 @@ h1{
   height:40px;
  margin-right: 10px;
  border-radius: 25px;
- border: 2px solid rgb(64, 61, 61);
+ border: 1px solid rgb(255, 255, 255);
  
 }
-
-.head{
-  margin: 0 auto;
-}
-
-.image-part-1{
-  
-}
+/* Image-related-div1 */
 .div1{
   width:150px;
   height:80px;
@@ -167,16 +166,16 @@ h1{
    position: relative;
    bottom: 10%;
  }
- 
+ /* Image-related-div2*/
 .div2{
-  width:180px;
+  width:170px;
   height:80px;
   background-color:#393939;
   border-radius:8px;
   justify-content: space-around;
   position: absolute;
-  margin-top: -145px;
-  margin-right:600px;
+  margin-top: -150px;
+  margin-left:-80px;
 }
 
 #head-title1{
@@ -185,12 +184,21 @@ h1{
  }
  #para2{
    position: relative;
-   bottom: 10%;
+   bottom: 5%;
  }
- 
+
  .fa-solid{
   font-size: 30px;
   position: relative;
   top:30%;
-  left: 20%;
+  left: 25%;
+ }
+ /* Responsive for Mobile */
+ @media screen and ( max-width: 576px) {
+  
+ }
+ /* main-section */
+ #main-part{
+  margin: 0 auto;
+
  }
