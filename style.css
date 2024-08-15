@@ -45,6 +45,7 @@
   font-weight: 900;
 }
 
+
 /* Fonts */
 .font1 {
   font-size: 1rem;
@@ -57,6 +58,15 @@
 }
 .font4{
   font-size: 4.875rem;
+}
+.font5{
+  font-size: 0.8125rem;
+}
+.font6{
+  font-size: 2.5rem;
+}
+.font7{
+  font-size:1.5rem;
 }
 
 
@@ -95,24 +105,54 @@
 .hero-section{
   justify-content: space-evenly;
   margin:0 auto;
-  
+
 }
 .heading{
   flex-direction: column;
-  background-color: palevioletred;
-  padding: 0;
+  margin-left: 25px;
 }
+
 h1{
-  margin: 0;
+  margin: 0px;
+  padding: 0px;
 }
+
+.buttons{
+  margin-top: 10px;
+}
+
 .btn1{
+  width:200px;
+  height:40px;
  margin-right: 10px;
+ border-radius: 25px;
+ border:none;
  
 }
+
+.btn2{
+  width:200px;
+  height:40px;
+ margin-right: 10px;
+ border-radius: 25px;
+ border: 2px solid rgb(64, 61, 61);
+ 
+}
+
 .head{
   margin: 0 auto;
 }
+
 .image-part-1{
   background-color: aqua;
 }
-
+.div1{
+  width: 200px;
+  height:80px;
+  padding-left: 10px;
+  background-color:#393939;
+  border-radius: 10px;
+}
+.para1{
+  margin-bottom: 20px;
+}
