@@ -110,11 +110,12 @@
 .heading{
   flex-direction: column;
   margin-left: 25px;
+  margin-top: 50px;
 }
 
 h1{
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
 }
 
 .buttons{
@@ -144,15 +145,52 @@ h1{
 }
 
 .image-part-1{
-  background-color: aqua;
+  
 }
 .div1{
-  width: 200px;
+  width:150px;
   height:80px;
-  padding-left: 10px;
+  padding-left: 20px;
+  background-color:#686767b8;
+  border-radius:8px;
+  position: absolute;
+  margin-top: 140px;
+  margin-left: 250px;
+
+  
+}
+#head-title{
+  position: relative;
+  top:10%; 
+ }
+ #para1{
+   position: relative;
+   bottom: 10%;
+ }
+ 
+.div2{
+  width:180px;
+  height:80px;
   background-color:#393939;
-  border-radius: 10px;
+  border-radius:8px;
+  justify-content: space-around;
+  position: absolute;
+  margin-top: -145px;
+  margin-right:600px;
 }
-.para1{
-  margin-bottom: 20px;
-}
+
+#head-title1{
+  position: relative;
+  top:15%; 
+ }
+ #para2{
+   position: relative;
+   bottom: 10%;
+ }
+ 
+ .fa-solid{
+  font-size: 30px;
+  position: relative;
+  top:30%;
+  left: 20%;
+ }
