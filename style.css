@@ -19,6 +19,9 @@
 .bg1 {
   background-color: #1d1d1d;
 }
+.background{
+  background-color: black;
+}
 /* Text-color */
 .primary-color {
   color: #e6533c;
@@ -47,27 +50,35 @@
 
 
 /* Fonts */
+/* 16px */
 .font1 {
   font-size: 1rem;
 }
+/* 14px */
 .font2 {
   font-size: 0.875rem;
 }
+/* 18px */
 .font3 {
   font-size: 1.125rem;
 }
+/* 78px */
 .font4{
   font-size: 4.875rem;
 }
+/* 13px */
 .font5{
   font-size: 0.8125rem;
 }
+/* 40px */
 .font6{
   font-size: 2.5rem;
 }
+/* 24px */
 .font7{
-  font-size:1.5rem;
+  font-size:1.5625rem;
 }
+/* 48px */
 .font8{
   font-size: 3rem;
 }
@@ -107,6 +118,12 @@
   border-radius: 20px;
   margin: auto 0;
 }
+.fa-bars{
+  visibility: hidden;
+  color:white;
+
+
+}
 /* Hero-section */
 .hero-section{
   justify-content: space-evenly;
@@ -124,6 +141,9 @@ h1{
   padding: 0;
 }
 
+.heading-title{
+margin-top: -5px;
+}
 .buttons{
   margin-top: 10px;
 }
@@ -154,7 +174,7 @@ h1{
   border-radius:8px;
   position: absolute;
   margin-top: 140px;
-  margin-left: 250px;
+  margin-left: 240px;
 
   
 }
@@ -193,10 +213,112 @@ h1{
   top:30%;
   left: 25%;
  }
- /* Responsive for Mobile */
- @media screen and ( max-width: 576px) {
+/* Changing-Habit-section */
+ .Changing-title{
+  text-align: center;
+  padding-top: 4%;
+ }
+ .Habits{
+  margin-top: 3%;
+align-items: center;
+padding-left: 10%;
   
  }
+ .Good-habits{
+  text-align: center;
+  margin-right:2%;
+ }
+ .images{
+  border-radius: 100%;
+  border:1px solid #686767b8;
+ }
+ .image-head{
+  margin-top: 7px;
+ }
+ .image-title{
+  margin-top: -20px;
+ }
+ /* Running-section */
+ .Run-section{
+  max-width: 1060px;
+  max-height: 40vh;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #222222;
+  border-radius: 17px;
+  margin:3% auto;
+  
+ }
+ 
+ .running-image-div{
+  width:350px;
+  height:310px;
+  border: #e6533c;
+  margin-top:10%;
+ }
+.running-image{
+  width: 100%;
+  border-radius: 25px;
+ }
+/* Bmi-Calculator */
+.Bmi-section{
+  justify-content: space-around;
+  align-items: center;
+}
+.BMI-heading{
+  
+}
+
+
+
+ /* Responsive for Mobile */
+ @media screen and ( max-width: 576px) {
+  .nav-border{
+    visibility: hidden;
+  }
+  .fa-bars{
+    visibility:visible;
+    margin-right: 180px;
+  }
+  .hero-section, .Habits{
+    flex-direction: column;
+  }
+  /* 36px */
+.heading-title .heading-title1{
+  font-size:2.25rem ;
+}
+.image-div{
+  position: relative;
+  top:-200px;
+  margin-left: 20%;
+  z-index:5;
+ }
+ .div1{
+  position: relative;
+  bottom: -125px;
+  right:35px;
+ }
+ .div2{
+  position: relative;
+  bottom:170px;
+  left: 90px;
+ }
+ .explanation-part{
+  position: relative;
+  margin-top: -230px;
+  z-index: 15;
+ }
+.all-responsive-heading{
+  font-size: 2rem;
+}
+.Good-habits,.images, .image-head {
+  margin-top:20px ;
+}
+
+
+
+}
+
  /* main-section */
  #main-part{
   margin: 0 auto;
