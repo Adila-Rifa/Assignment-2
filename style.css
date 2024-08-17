@@ -165,6 +165,7 @@ margin-top: -5px;
  border: 1px solid rgb(255, 255, 255);
  
 }
+
 /* Image-related-div1 */
 .div1{
   width:150px;
@@ -302,25 +303,48 @@ table,th ,td{
 }
 
 .input{
-  width:200px;
+  width:170px;
   height: 45px;
   border-radius: 10px;
   margin-top: 10px;
   margin-right: 7px;
+  padding-left:15px;
+  background-color: #1d1d1d;
+  border: none;
+
+}
+.input1{
+  width:185px;
+  height: 45px;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-right: 7px;
+  padding-left:15px;
   background-color: #1d1d1d;
   border: none;
 
 }
 .select-section{
-  width:420px;
+  width:390px;
   height:45px;
   margin-top: 10px;
   margin-bottom: 10px;
+  padding-left: 15px;
   border-radius: 10px;
   background-color: #1d1d1d;
   border: none;
 
 }
+.btn-div{
+  margin-top: 20px;
+  margin-bottom:50px;
+  margin-left: 5px;
+}
+.BMI-form{
+  font-size: 1.75rem;
+  margin-top: 50px;
+  margin-bottom: 5px;
+  }
 
  /* Responsive for Mobile */
  @media screen and ( max-width: 576px) {
