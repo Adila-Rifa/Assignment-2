@@ -150,55 +150,91 @@
               BMI Calculator
             </h1>
             <p class="secondary-color font-weight2 font2">
-              Check your BMI to see if your weight is healthy.
-              Find your <br> BMI to see if you're in a healthy weight range.
+              Check your BMI to see if your weight is healthy. Find your <br />
+              BMI to see if you're in a healthy weight range.
             </p>
           </div>
         </section>
         <section class="display BMI-Calculating-part">
           <div>
-            <h1 class="Common-color font-weight3 BMI-heading">BMI Calculator Chart</h1>
+            <h1 class="Common-color font-weight3 BMI-heading">
+              BMI Calculator Chart
+            </h1>
             <table class="table-size">
-              <tr><th class="Common-color tableheading tt">BMI</th>
-                <th class="Common-color tableheading">Weight Status</th></tr>
               <tr>
-              <td class="secondary-color font-weight2 font2">Below 18.5</td>
-              <td class="secondary-color font-weight2 font2">Underweight</td>           
+                <th class="Common-color tableheading tt">BMI</th>
+                <th class="Common-color tableheading">Weight Status</th>
               </tr>
               <tr>
-              <td class="secondary-color font-weight2 font2">18.5-24.9</td>
-              <td class="secondary-color font-weight2 font2">Healthy</td>           
+                <td class="secondary-color font-weight2 font2">Below 18.5</td>
+                <td class="secondary-color font-weight2 font2">Underweight</td>
               </tr>
               <tr>
-              <td class="secondary-color font-weight2 font2">25.0</td>
-              <td class="secondary-color font-weight2 font2">Overweight</td>           
+                <td class="secondary-color font-weight2 font2">18.5-24.9</td>
+                <td class="secondary-color font-weight2 font2">Healthy</td>
               </tr>
-              <tr><td class="secondary-color font-weight2 font2">30.0-and Above</td>
-              <td class="secondary-color font-weight2 font2">Obese</td></tr>
+              <tr>
+                <td class="secondary-color font-weight2 font2">25.0</td>
+                <td class="secondary-color font-weight2 font2">Overweight</td>
+              </tr>
+              <tr>
+                <td class="secondary-color font-weight2 font2">
+                  30.0-and Above
+                </td>
+                <td class="secondary-color font-weight2 font2">Obese</td>
+              </tr>
             </table>
           </div>
-         <div>
-          <h1 class="Common-color font-weight3 BMI-heading">Calculate your BMI</h1>
-          <p class="secondary-color font-weight2 font7">Use a BMI calculator to check if your weight is in a healthy range.</p>
           <div>
+            <h1 class="Common-color font-weight3 BMI-heading">
+              Calculate your BMI
+            </h1>
+            <p class="secondary-color font-weight2 font2">
+              Use a BMI calculator to check if your weight is in a healthy
+              range.
+            </p>
             <div>
-              <input type="text" value="Height/cm" >
-              <input type="text" value="Weight/kg">
+              <div class="display">
+                <input
+                  class="input secondary-color font-weight2 font1"
+                  type="text"
+                  value="Height/cm"
+                />
+                <input
+                  class="input secondary-color font-weight2 font1"
+                  type="text"
+                  value="Weight/kg"
+                />
+              </div>
+              <div>
+                <input
+                  class="input secondary-color font-weight2 font1"
+                  type="text"
+                  value="Age"
+                />
+
+                <select
+                  class="input secondary-color font-weight2 font1"
+                  name="Sex"
+                  id=""
+                >
+                  <option value="Sex">Sex</option>
+                  <option value="Male">Male</option>
+                  <option value="Female">Female</option>
+                  <option value="Tern-gender">Tern-gender</option>
+                </select>
+              </div>
+              <select class="select-section secondary-color font-weight2 font1" name="Activity factor" id="">
+                <option value="Select an activity factor">Select an activity factor</option>
+                <option value="Running">Running</option>
+                <option value="Walking">Walking</option>
+                <option value="Swimming">Swimming</option>
+              </select>
             </div>
-            <div>
-              <input type="text" value="Age" >
-              
-            <select name="Sex" id="">
-              <option value="Sex">Sex</option> 
-              <option value="Male">Male</option> 
-             <option value="Female">Female</option>  
-            <option value="Tern-gender">Tern-gender</option>  
-     
-            </select>
-            </div>
-         </div>
+            <button class="Common-color b1 font-weight1 btn1">Calculate</button>
+
+          </div>
         </section>
-        
       </section>
     </main>
   </body>
